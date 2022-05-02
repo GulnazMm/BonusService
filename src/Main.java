@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         int sum = 100;
-        int amount = 3000;
+        int amount = 2000;
         boolean isPaid = true;
 
 
