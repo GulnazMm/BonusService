@@ -2,11 +2,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int price = 3000;
-        int bonus = 20;
-        int mile = price / bonus;
+        int sum = 100;
+        int amount = 2000;
+        boolean isPaid = true;
 
-        System.out.println("Ваши мили:" + mile);
+
+        if (isPaid) {
+            sum = amount + sum;
+        } else {
+            sum = sum;
+        }
+        int bonus;
+        if (amount >= 1000) {
+            bonus = (amount / 100);
+        } else {
+            bonus = 0;
+        }
+        sum = sum + bonus;
+
+        System.out.println("На счету:" + sum);
+        System.out.println("Бонусные рубли:" + bonus);
 
     }
 }
