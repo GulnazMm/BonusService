@@ -6,7 +6,6 @@ public class Main {
         int amount = 1000;
         boolean isPaid = true;
 
-
         if (isPaid) {
             sum = amount + sum;
         } else {
