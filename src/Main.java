@@ -3,8 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         int sum = 100;
-        int amount = 2000;
-
+        int amount = 1000;
         sum = amount + sum;
 
         int bonus;
