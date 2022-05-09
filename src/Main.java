@@ -3,14 +3,10 @@ public class Main {
     public static void main(String[] args) {
 
         int sum = 100;
-        int amount = 1000;
-        boolean isPaid = true;
+        int amount = 2000;
 
-        if (isPaid) {
-            sum = amount + sum;
-        } else {
-            sum = sum;
-        }
+        sum = amount + sum;
+
         int bonus;
         if (amount > 1000) {
             bonus = (amount / 100);
